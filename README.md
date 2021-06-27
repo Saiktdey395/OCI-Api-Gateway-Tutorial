@@ -79,7 +79,10 @@ Creating an API Gateway:
 ![image](https://user-images.githubusercontent.com/34638862/123543029-58b9aa00-d76a-11eb-93c1-d04711dd2a2d.gif)
 
 Please note there are two ways to create a gateway. We can configure it manually or use an “Existing Deployment API”.
+
 In a typical scenario a API deployment file would look like this: Sample file.
+
+
 {
   "routes": [
     {
@@ -100,6 +103,7 @@ In a typical scenario a API deployment file would look like this: Sample file.
     }
   ]
 }
+
 
 **Authentication in API Gateway**
 
@@ -225,8 +229,9 @@ In the API page, click on “Create API”. This would launch a screen to enter 
 
 
 Select a yaml file and click on Upload.
+
 You can download the YAML file from this Object Storage link: 
-https://objectstorage.ap-tokyo-1.oraclecloud.com/n/nr1gqrdncp4f/b/bir_training/o/formsapi.yaml
+https://objectstorage.us-ashburn-1.oraclecloud.com/n/sehubjapacprod/b/Github_resources/o/formsapi.yaml
 
 ![image](https://user-images.githubusercontent.com/34638862/123543164-e5fcfe80-d76a-11eb-9beb-6802edcdb0a9.gif)
 
