@@ -1,5 +1,4 @@
-# OCI-Api-Gateway-Tutorial
-Tutorial on OCI API gateway
+# OCI-Api-Gateway-Handson-Lab
 
 **Oracle API Gateway**
 
@@ -46,7 +45,7 @@ Allow group adminGroup to manage all-resources in compartment bir_oci_training
 
 Under matching Rules add the statement.
 Like: 
-ALL {resource.type = 'ApiGateway', resource.compartment.id = 'ocid1.compartment.oc1..aaaaaaaahyudxrhkeg7esfrcuxom2hbw5eeco3vxgv3gqlu2lgkgnob2w7ba'}
+ALL {resource.type = 'ApiGateway', resource.compartment.id = 'ocid1.compartment.oc1..aaaaaaaahyudxrhkeg7esfrcuxom2hbw5eeco3vxgv3gqlu2lg.......'}
 
 ![image](https://user-images.githubusercontent.com/34638862/123542999-37f15480-d76a-11eb-8f69-59e103b17395.gif)
 
@@ -231,7 +230,7 @@ In the API page, click on “Create API”. This would launch a screen to enter 
 Select a yaml file and click on Upload.
 
 You can download the YAML file from this Object Storage link: 
-https://objectstorage.us-ashburn-1.oraclecloud.com/n/sehubjapacprod/b/Github_resources/o/formsapi.yaml
+https://objectstorage.us-ashburn-1.oraclecloud.com/n/sehubjapacprod/b/OCI_Resources/o/lab_resources%2Fformsapi.yaml
 
 ![image](https://user-images.githubusercontent.com/34638862/123543164-e5fcfe80-d76a-11eb-9beb-6802edcdb0a9.gif)
 
